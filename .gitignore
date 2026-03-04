@@ -1,0 +1,23 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Go compilation outputs
+bin/
+git-recon
+git-recon.exe
+git-recon-linux*
+git-recon-windows*
+git-recon-darwin*
+
+# React / Node outputs & dependencies
+ui/node_modules/
+ui/dist/
+ui/.npm/
+
+# Go embed templates (auto-generated during make build)
+pkg/generator/template/
+
+# IDEs
+.idea/
+.vscode/
